@@ -1,0 +1,314 @@
+ 
+ @media screen and (max-width: 1200px) {
+    .sublime_photos_container_pictures {
+        min-height: 750px;
+        max-width: 860px;
+        margin: 20px auto;
+    }
+    
+    .services_provided_container {
+       flex-direction: column;
+    }
+
+    .services_provided_right_content {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .our_team_content {
+        padding: 50px 30px 30px 30px;
+    }
+
+    .our_team_container {
+        flex-direction: column;
+        height: 555px;
+    }
+ }
+
+ @media screen and (max-width: 1120px) {
+     .footer_right_block_h1 {
+        padding: 333px 30px 0px 70px;
+        font-size: 85px;
+     }
+ }
+
+ @media screen and (max-width: 860px) {
+    .our_team_container {
+        height: 820px;
+    }
+
+    .location_map_container {
+        padding: 0 40px;
+    }
+
+    .sublime_gallery_h1 {
+        padding: 40px 40px 0 40px;
+    }
+ }
+ 
+ @media screen and (max-width: 800px) {
+     .header_container {
+         min-height: 520px;
+     }
+
+     .logo_text {
+         font-size: 140px;
+     }
+
+     .sublime_container {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     .container1 {
+         min-height: 130px;
+     }
+
+     .container2 {
+         padding: 0 55px;
+     }
+
+     .sublime_container_item {
+         padding: 20px;
+     }
+
+     .sublime_gallery_photos_container {
+         padding: 0 20px;
+     }
+
+     .sublime_gallery_photos_container .text_item {
+         line-height: 20px;
+     }
+
+     .sublime_gallery_h1 {
+         padding: 20px 40px;
+     }
+
+     .footer_right_block_h1 {
+         font-size: 70px;
+         padding: 200px 30px 0px 35px;
+     }
+ }
+
+ @media screen and (max-width: 700px) {
+
+    .contact_us_container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .contact_us_right {
+        position: relative;
+        width: 100%;
+    }
+
+    .contact_us_left {
+        width: 90%;
+    }
+
+    .sublime_gallery_photos_container {
+        display: block;
+        text-align: center;
+    }
+
+    .location_map_container  {
+        padding: 0 40px 0 100px;
+    }
+
+    .border_bottom {
+        width: 420px;
+    }
+
+    .photos_item {
+        margin: 0 auto;
+    }
+
+    .text_item {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .our_team_text1, .our_team_text2 {
+        width: 100%;
+    }
+
+    .testimonials_text {
+        padding: 40px 0 20px 40px;
+    }
+
+    .testimonials_man {
+        padding: 20px;
+    }
+
+    .footer_container {
+        display: block;
+    }
+
+    .footer_left_block {
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .footer_border_bottom {
+        width: 350px;
+        margin: 30px auto;
+    }
+
+    .footer_right_block_h1  {
+        font-size: 60px;
+        padding: 110px;
+    }
+ }
+
+@media screen and (max-width: 620px) {
+    .text_item {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .border_bottom {
+        width: 300px;
+    }
+}
+
+ @media screen and (max-width: 500px) {
+     .logo_text {
+         font-size: 100px;
+     }
+
+     .sublime_text {
+         line-height: 11px;
+     }
+
+     .blog_item {
+         text-align: center;
+     }
+
+     .sublime_container2 {
+         display: block;
+     }
+
+     .sublime_photos_container_menu {
+         padding: 0 10px 0 10px;
+         justify-content: center;
+     }
+
+     .sublime_photos_container_menu ul {
+         padding-left: 20px;
+     }
+
+ }
+
+ @media screen and (max-width: 458px) {
+    .our_team_container {
+        height: 1380px;
+    }
+ }
+
+ @media screen and (max-width: 430px) {
+    .sublime_photos_container_menu {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .sublime_photos_container_menu ul {
+        margin: 5px 0;
+    }
+
+    .sublime_gallery_h1 {
+        padding: 0;
+    }
+
+    .sublime_gallery_p {
+        margin: 15px 0;
+    }
+
+    .border_bottom {
+        width: 200px;
+        margin: 30px auto;
+    }
+
+    .footer_right_block_h1  {
+        font-size: 45px;
+        padding: 124px 25px 30px 30px;
+    }
+
+    .our_team_content{
+        padding: 20px 20px;
+    }
+
+    #name {
+        width: 100px;
+    }
+
+    .mobile_email {
+        width: 288px;
+    }
+
+    #mobile {
+        width: 120px;
+    }
+
+    #email {
+        width: 120px;
+    }
+    
+    #textarea {
+        width: 276px;
+        padding: 5px 5px 0 5px;
+    }
+
+    .inner_text {
+        width: 280px;
+    }
+
+    .form {
+        width: 290px;
+    }
+
+    .testimonials_text {
+        line-height: normal;
+    }
+ }
+
+ @media screen and (max-width: 360px) {
+     .sublime_gallery_p {
+         margin: 0;
+     }
+
+     .logo_text {
+         font-size: 85px;
+     }
+
+     .services_provided_p {
+         padding-right: 50px;
+     }
+
+     .menu {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     .photos_item  {
+         min-height: 220px;
+     }
+
+     .logo_text  {
+         font-size: 80px;
+     }
+
+     .about_sublime_text_2 {
+         font-size: 65px;
+     }
+ }
+
+ @media screen and (max-width: 330px) {
+    .sublime_photos_container_item img {
+        height: fit-content;
+    }
+
+    .sublime_photos_container_item {
+        width: 255px;
+    }
+ }
