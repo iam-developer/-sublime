@@ -311,4 +311,8 @@
     .sublime_photos_container_item {
         width: 255px;
     }
+  
+   .logo_text {
+        font-size: 60px;
+    }
  }
