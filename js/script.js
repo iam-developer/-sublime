@@ -54,7 +54,7 @@ let message = document.querySelector('[name = message]').value;
             return false;
         }
         else {
-            inner_text.innerText = 'Ваши данные успешно отправлены!';
+            inner_text.innerText = 'Ваши данные отправлены!';
             inner_text.style.color = "#fff";
             inner_text.style.backgroundColor = "green";
             inner_text.style.transition = "0.4s";
