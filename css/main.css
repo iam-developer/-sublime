@@ -2,7 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(7, 6, 10);
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+    overflow-x: hidden; 
+>>>>>>> 30c8e0bf3dc243caa1354ee511f9fb2c8cae7c62
 }
 
 html {

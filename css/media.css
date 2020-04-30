@@ -239,6 +239,10 @@
     .sublime_gallery_h1 {
         padding: 0;
     }
+  
+   .logo_text {
+        font-size: 60px;
+    }
 
     .logo_text {
         font-size: 60px
@@ -341,8 +345,16 @@
     .sublime_photos_container_item {
         width: 255px;
     }
+<<<<<<< HEAD
 
     .logo_text {
         font-size: 60px;
     }
  }
+=======
+  
+   .logo_text {
+        font-size: 60px;
+    }
+ }
+>>>>>>> 30c8e0bf3dc243caa1354ee511f9fb2c8cae7c62

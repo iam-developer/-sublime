@@ -47,14 +47,14 @@ let message = document.querySelector('[name = message]').value;
 
     for(let i = 0; i < inputs.length; i ++) {
         if(inputs[i].value == '') {
-            inner_text.innerText = 'Заполните все поля!';
+            inner_text.innerText = 'Fill in all the fields!';
             inner_text.style.color = "#fff";
             inner_text.style.backgroundColor = "red";
             inner_text.style.transition = "0.4s";
             return false;
         }
         else {
-            inner_text.innerText = 'Ваши данные успешно отправлены!';
+            inner_text.innerText = 'Your message has been sent!';
             inner_text.style.color = "#fff";
             inner_text.style.backgroundColor = "green";
             inner_text.style.transition = "0.4s";
