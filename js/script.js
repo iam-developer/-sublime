@@ -1,4 +1,4 @@
-    
+
 $(document).ready(function(){
 
     $('#about_btn').on("click", function(e){
@@ -6,7 +6,7 @@ $(document).ready(function(){
             var top = $("#about_sublime").offset().top;
         $('html,body').animate({
             scrollTop: top
-        }, 500);
+        }, 700);
     });
 
     $('#project_btn').on("click", function(e){
@@ -14,7 +14,7 @@ $(document).ready(function(){
             var top = $("#projects").offset().top;
         $('html,body').animate({
             scrollTop: top
-        }, 500);
+        }, 700);
     });
 
     $('#development_btn').on("click", function(e){
@@ -22,7 +22,7 @@ $(document).ready(function(){
             var top = $("#services_provided").offset().top;
         $('html,body').animate({
             scrollTop: top
-        }, 500);
+        }, 700);
     });
 
     $('#blog_btn').on("click", function(e){
@@ -30,7 +30,7 @@ $(document).ready(function(){
             var top = $("#blogs").offset().top;
         $('html,body').animate({
             scrollTop: top
-        }, 500);
+        }, 700);
     });
 });
 
